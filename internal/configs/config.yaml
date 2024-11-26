@@ -1,0 +1,6 @@
+service:
+  port: ":8084"
+  secretJWT: "fastcampus"
+
+databse:
+  dataSourceName: "postgres://admin:root@localhost:5432/fastcampus_db?sslmode=disable
