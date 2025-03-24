@@ -89,7 +89,7 @@ func Test_service_Login(t *testing.T) {
 				membershipsRepo: mockRepo,
 				cfg: &configs.Config{
 					Service: configs.Service{
-						SecretJWT: "abc",
+						SecretKey: "abc",
 					},
 				},
 			}

@@ -1,6 +1,10 @@
 service:
   port: ":8084"
-  secretJWT: "fastcampus"
+  secretKey: "fastcampus"
 
 database:
   dataSourceName: "postgres://admin:root@localhost:5432/fastcampus_db"
+
+spotifyConfig:
+  clientID: "16afb3cb2f444b29a1fdb01e6c8370cd"
+  clientSecret: "82022439ab3b499ca903cf38b0a3003e"
